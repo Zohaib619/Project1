@@ -1,0 +1,38 @@
+.card{
+    display: flex;
+    flex-direction: column;
+    width: 15em;
+    border: 1px solid black;
+    padding: 0.3em;
+    border-radius: 10px;
+}
+#parent{
+    display: grid;
+    grid-template-columns: auto auto auto auto;
+    grid-gap:0.2em;
+    justify-content: center;
+    align-content: center;
+}
+nav{
+    display: flex;
+    justify-content: space-between;
+    
+}
+ul{
+    display: flex;
+    justify-content: space-between;
+    margin: 0%;
+    gap: 0.5em;
+}
+li{
+    list-style: none;
+}
+@media (max-width:1000px){
+
+     #parent{
+    display: grid;
+    grid-template-columns: auto auto  ;
+   
+}
+
+}
